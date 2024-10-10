@@ -1,0 +1,11 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+@config 'tailwind.config.js';
+
+
+.section-no-padding .fi-section-content {
+    @apply p-0;
+}
+
+.section-no-padding .fi-ta-ctn {
+    @apply rounded-t-none ring-transparent;
+}
